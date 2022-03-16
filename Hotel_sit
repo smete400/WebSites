@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="home" class="main-header">
+        <div class="navbar">
+            <h1 class="brand">
+                <i class="fas fa-hotel"></i>
+                <span class="text-warning">Deluxe</span>Hotel
+            </h1>
+            <nav>
+                <ul>
+            <li><a href="#home" id="same">Home</a></li>
+            <li><a href="#About" id="same">About</a></li>
+            <li><a href="#Rooms" id="same">Rooms</a></li>
+            <li><a href="#Blogs" id="same">Blogs</a></li>
+            <li><a href="#Contact" id="same">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- ddd -->
+        <div class="content">
+            <h1>Welcome To Deluxe</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolor<br> non sed provident, sunt necessitatibus.</p>
+            <a href="#" class="buttoni buttoni-primary"><i class="fas fa-chevron-right"></i> Read More</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Backg -->
+        <section id="services" class="icons bg-light">
+            <div class="flex-items">
+                <div>
+                    <i class="fa-solid fa-bell-concierge"></i>
+                    <div>
+                        <h3>24/7 Front Desk</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, voluptatem!</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-utensils fa-3x"></i>
+                    <div>
+                        <h3>Restaurant Bar</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, laborum!</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-taxi fa-3x"></i>
+                    <div>
+                        <h3>Special Delivery</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, corporis.</p>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa-solid fa-spa fa-3x"></i>
+                    <div>
+                        <h3>Spa Suits</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, nesciunt!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about" class="about flex-columns">
+            <div id="row">
+                <div class="basic about__left">
+                    <div class="colon_0">
+                        <img src="../img/about1.jpeg" alt="#">
+                    </div>
+                </div>
+                <div class="basic about__right">
+                    <div class="colon_1">
+                        <h1>Costumer Service</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        <button type="submit" class="buttoni-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Images -->
+        <section id="gallery">
+            <div class="title">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, distinctio?</p>
+            </div>
+            <div id="row">
+                <div class="colomns">
+                    <img src="../img/1.jpeg" alt="#">
+                    <img src="../img/2.jpeg" alt="#">
+                </div>
+                <div class="colomns">
+                    <img src="../img/3.jpeg" alt="#">
+                    <img src="../img/4.jpeg" alt="#">
+                </div>
+                <div class="colomns">
+                    <img src="../img/1.jpeg" alt="#">
+                    <img src="../img/2.jpeg" alt="#">
+                </div>
+                <div class="colomns">
+                    <img src="../img/3.jpeg" alt="#">
+                    <img src="../img/4.jpeg" alt="#">
+                </div>
+            </div>
+        </section>
+        <!-- Service 2 -->
+        <section id="service" class="about flex-columns">
+            <div id="row" class="mana">
+                <div class="basic about__left" >
+                    <div class="colon_0">
+                        <img src="../img/about2.jpeg" alt="#">
+                    </div>
+                </div>
+                <div class="basic about__right" style="background-color: var(--primary);">
+                    <div class="colon_1" id="cihaz">
+                        <h1>Costumer Service</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur.</p>
+                        <button type="submit" class="buttoni-secondary">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Rooms -->
+        <div id="Rooms">
+            <div class="title">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, esse.</p>
+            </div>
+            <div class="temel_item">
+                <div class="kane">
+                    <img src="../img/room1.jpeg" alt="#">
+                    <div id="mane">
+                        <h2>Deluxe Room</h2>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <div class="kane">
+                    <img src="../img/room2.jpeg" alt="#">
+                    <div id="mane">
+                        <h2>Superior Room</h2>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+                <div class="kane">
+                    <img src="../img/room3.jpeg" alt="#">
+                    <div id="mane">
+                        <h2>Standart Room</h2>
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- managers -->
+        <div class="big_picture">
+            <div class="title">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, nemo?</p>
+            </div>
+            <div class="temel_item" style="border-radius:25%;">
+                <div class="kane">
+                    <img src="../img/p1.jpeg" alt="">
+                    <div id="mani">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Manager</p>
+                    </div>
+                </div>
+                <div class="kane">
+                    <img src="../img/p2.jpeg" alt="">
+                    <div id="mani">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Manager</p>
+                    </div>
+                </div>
+                <div class="kane">
+                    <img src="../img/p3.jpeg" alt="">
+                    <div id="mani">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mail Kısmı -->
+        <section id="Contact">
+        <div class="menu">
+                <div class="menu_left">
+                    <img src="../img/contact.jpeg" alt="">
+                </div>
+                <div class="menu_right">
+                    <h1>Contact Us</h1>
+                    <div class="menu_double">
+                        <form action="" id="formul">
+                                <label for="name" class="formula">Name</label>
+                                <br>
+                                <input type="text"id="name"
+                                placeholder="Enter Your Name"><br>
+                                <label for="mail" class="formula">E-mail</label>
+                                <br>
+                                <input type="email"id="mail"
+                                placeholder="Enter Your E-mail"><br>
+                                <label for="number" class="formula">Number</label>
+                                <br>
+                                <input type="tel" id="number"
+                                placeholder="Enter Your Number"><br>
+                                <button class="buttoni-secondary" style="background-color: var(--primary); margin:16px -1px;">
+                                    Submit
+                                </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--FOOTER-->
+    <footer style="padding: 3rem;">
+        <div id="foot_er">
+            <a href="https://tr-tr.facebook.com
+            " class="same_f"> 
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="same_f">
+                <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://www.youtube.com/" class="same_f">
+                <i class="fa-brands fa-youtube fa-2x"></i>
+            </a>
+            <a href="#" class="same_f">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+            </a>
+            <p>Copyright © 2025 - Hotel Site</p>
+        </div>
+    </footer>
+</body>
+</html>
