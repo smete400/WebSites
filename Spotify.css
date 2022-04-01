@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+main{
+    background-color:rgb(41,65,171);
+}
+#option{
+    text-align:center;
+    background:url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size:cover;
+    padding:50px 90px;
+    z-index:1;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height:800px;
+    overflow: hidden;
+    background-position: center top;
+}
+#options{
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 175px;
+    font-family: ralew;
+}
+#options>h1{
+    font-size:96px; 
+    line-height:96px; 
+    width:800px;
+    color:#1ed760;                 
+    font-family:Vazirmatn;
+    font-weight:bold;
+    margin:0 auto
+}
+#options>p{
+    margin: 40px 0px 50px 0px;
+    font-size: 20px;
+    color: #1ed760;
+}
+#options>a{
+    text-decoration:none;
+    padding:14px 32px;
+    background-color:#1ed760;
+    border-radius:500px;
+    color: rgb(41,65,171);
+    letter-spacing:2px;
+    font-weight: 700;
+}
+#footer{
+    width:100%;
+    background-color:#000;
+    padding: 40px 50px;
+}
+
+.footx{
+    vertical-align: middle;
+    width:132px;
+    height:40px;
+}
+.footx>svg{
+    width: 132px;
+    fill: white;
+    padding: 12px;
+}
+.foot_er{
+    display:flex;
+}
+.blek ul li{
+    list-style-type: none;
+    padding: 3px 0px 15px;
+}
+.blek{
+    padding:12px 30px;
+    margin: 0px 30px;
+}
+#x_1{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lato',sans-serif;
+}
+.dada{
+    padding: 12px;
+    color: #919496;
+}
